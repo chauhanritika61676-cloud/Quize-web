@@ -1,0 +1,86 @@
+.had{text-align: center;
+    width:auto;
+    height: auto;
+    background-color:hwb(235 69% 7%); 
+    border: 5px solid #2773f1}
+
+.easy{text-align: center;
+     width:30%;
+      max-width: 80%;
+     height:30%;
+     background-color:hwb(234 69% 16%);
+     border: 5px solid #a2bdea;
+    border-radius: 360px;
+     margin: 30px;}
+
+h2{text-align: center;
+     width:100%;
+      max-width:80%;
+     height:30%;
+     background-color:hwb(233 61% 16%);
+     border: 5px solid #586882;
+    border-radius: 360px;
+     margin: 30px;}
+
+/* ===== RESPONSIVE - ALL DEVICES ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .had {
+        width: 100%;
+    }
+
+    .easy {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    h2 {
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .had {
+        width: 100%;
+    }
+
+    .easy {
+        width: 70%;
+        max-width: 100%;
+    }
+
+    h2 {
+        width: 70%;
+        max-width: 100%;
+    }
+}
+
+/* Laptop & Desktop */
+@media screen and (min-width: 1025px) {
+    .had {
+        width: 100%;
+    }
+
+    .easy {
+        width: 30%;
+        max-width: 100%;
+    }
+
+    h2 {
+        width: 100%;
+        max-width: 80%;
+    }
+}
