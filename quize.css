@@ -2,7 +2,7 @@ body {
   background-color: #f4f7ff;
   padding: 0px;
   margin: 0px 5px 5px;
-  font-family: italic;    
+  font-style: italic;    
 }
 .had{text-align: center;
     width:auto;
@@ -17,8 +17,8 @@ h1{text-align: center;}
 
 .green{color:hwb(0 10% 15%)}
 
-h2{  width: 650 px;
-    height: 90 px; 
+h2{  width:650 px;
+    height:90 px; 
   background-color: #3461ab;
    border: 5px solid #95b3c7;;
   object-fit: cover;
